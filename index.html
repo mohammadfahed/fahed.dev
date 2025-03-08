@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=, initial-scale=1.0">
+	<title>portfolio</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+
+</head>
+
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>
+				<img src="images/logo.jpeg" alt="logo">
+				<ul id="menubar">
+					<li><a href="#header" onclick="closehome()">Home</a></li>
+					<li><a href="#about" onclick="closeabout()">About</a></li>
+					<li><a href="#services" onclick="closeservice()">Service</a></li>
+					<li><a href="#portfolio" onclick="closeportfolio()">portfolio</a></li>
+					<li><a href="#contact" onclick="closecontact()">Contact</a></li>
+					<i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+				</ul>
+				<i class=" fas fa-solid fa-bars " onclick="openmenu()"></i>
+			</nav>
+		</div>
+		<div class="head_content">
+			<h4>UI/UX Designer</h4>
+			<p>Hi,I'm <span>fahed</span><br> From India</p>
+		</div>
+	</div>
+	<!-- ......about....... -->
+	<div id="about">
+		<div class="row">
+			<div class="col1">
+				<img src="images/user.jpeg" alt="">
+			</div>
+			<div class="col2">
+				<h1 class="sub-title">About Me</h1>
+				<p class="aboutme">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellat architecto
+					recusandae quos
+					labore quibusdam amet veniam in voluptatibus. Voluptates impedit quasi dolore eveniet voluptate
+					nesciunt quidem quo sunt error autem quibusdam et aliquid qui veritatis illo, molestias quas sequi!
+				</p>
+				<div class="tabtitle">
+					<p class=" tab-link active-link" onclick="opentab('skil1')">Skill </p>
+					<p class=" tab-link" onclick="opentab('experince')"> Experience</p>
+					<p class=" tab-link" onclick="opentab('education')">Education</p>
+
+				</div>
+				<div class="tab-content active-tab" id="skil1">
+					<ul>
+						<li><span>UI/UX</span><br>DesigningWeb</li>
+						<li><span>Web Development</span><br>Web app Development</li>
+						<li><span>App Development</span><br>Building Andriod</li>
+					</ul>
+				</div>
+				<div class="tab-content" id="experince">
+					<ul>
+						<li><span>2025-current</span><br>Designing Web</li>
+						<li><span>2022-2025</span><br>Digital Card Designer</li>
+					</ul>
+				</div>
+				<div class="tab-content" id="education">
+					<ul>
+						<li><span>2023-2026 current</span><br>BCA from Dr Ram Manohar Lohia</li>
+						<li><span>2021-2023</span><br>Intermediate from P.D technical Inter College</li>
+
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ....services...... -->
+	<div id="services">
+		<h1>My Services</h1>
+		<div class="container">
+			<div class="column">
+				<div>
+					<i class="fa-solid fa-code fa-5x"></i>
+					<h3>Web Design</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quibusdam rerum ratione error,
+						qui recusandae quisquam facere soluta ducimus sunt.</p>
+					<a href="#">Learn more</a>
+
+				</div>
+
+			</div>
+			<div class="column">
+				<div>
+					<i class="fa-solid fa-crop-simple fa-5x"></i>
+					<h3>UI/UX Design</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quibusdam rerum ratione error,
+						qui recusandae quisquam facere soluta ducimus sunt.</p>
+					<a href="#">Learn more</a>
+
+				</div>
+
+			</div>
+			<div class="column">
+				<div>
+					<i class="fa-brands fa-app-store fa-5x"></i>
+					<h3>App Design</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quibusdam rerum ratione error,
+						qui recusandae quisquam facere soluta ducimus sunt.</p>
+					<a href="#">Learn more</a>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- -----portfolio---- -->
+	<div id="portfolio">
+		<h1>My portfolio</h1>
+		<div class="container">
+			<div class="work">
+				<img src="images/work-1.png" alt="">
+				<div class="aboutimg ">
+					<h2>Social Media App</h2>
+					<p>The app conects you to the talented people around the world. Download it from play store</p>
+					<a href="https://mohammadfahed.github.io/love/"><i class="fa-solid fa-up-right-from-square"></i></a>
+				</div>
+			</div>
+
+
+			<div class="work">
+				<img src="images/work-2.png" alt="">
+				<div class="aboutimg">
+					<h2>Music App</h2>
+					<p>The app conects you to the best naat for you. Download it from play store</p>
+					<a href="https://mohammadfahed.github.io/Friend/"><i
+							class=" fas1fa-solid fa-up-right-from-square"></i></a>
+				</div>
+			</div>
+
+			<div class="work">
+				<img src="images/work-3.png" alt="">
+				<div class="aboutimg">
+					<h2>Shoping App</h2>
+					<p>The app conects you to the shoping things around the world. Download it from play store</p>
+					<a href="https://mohammadfahed.github.io/Amazon-clon/"><i
+							class="fa-solid fa-up-right-from-square"></i></a>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+	<!-- -----contact----- -->
+	<div id="contact">
+		<div class="container1">
+			<div class="row1">
+				<div class="col-left">
+					<h1>Contact Me</h1>
+					<p> <i class="fa-solid fa-paper-plane"></i> mohammadfahed012@gmail.com</p>
+					<p> <i class="fa-solid fa-phone"></i><span>+91</span>9721967353</p>
+					<div class="social-icon">
+						<a href="https://www.instagram.com/01_fahed_01/?hl=en" class="social"> <i
+								class="fa-brands fa-square-instagram"></i></a>
+						<a href="https://www.facebook.com/md.fahed.3726/" class="social"> <i
+								class="fa-brands fa-facebook"></i></a>
+					</div>
+					<a href="images/FAHED RESUME pdf.pdf" class="cvbtn"> Download CV </a>
+				</div>
+				<div class="col-right">
+					<form name="submit-to-google-sheet">
+						<input type="text" name="Name" placeholder="your name" required>
+						<input type="email" name="Email" placeholder="your email" required>
+						<textarea name="Meassage" rows="6" placeholder="your message"></textarea>
+						<button type="submit">Submit </button>
+						<span id="msg"></span>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="copyright">
+		<p>copyright &copy; fahed.2025</p>
+	</div>
+
+	<script src="javascript.js"></script>
+</body>
+
+</html>
