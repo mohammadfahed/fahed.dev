@@ -69,7 +69,8 @@ nav ul li a:hover::after {
 }
 
 .head_content {
-    padding: 191px 0 0px 88px;
+	margin-top: 44px;
+    margin-left: 23px;
 }
 
 .head_content h4 {
@@ -655,9 +656,9 @@ nav i.fas {
         height: 295vh;
     }
 	.container {
-        /* margin-left: 20px; */
+        
         width: 100%;
-        height: 85vh;
+		height: 37vh;
         display: block;
     }
 	.column {
@@ -766,8 +767,8 @@ nav i.fas {
 @media only screen and (max-width:320px) {
 	#header {
         background-image: url(images/phone-background.jpeg);
-		height: 226vh;
-        width: 219vw;
+        height: 103vh;
+        width: 103vw;
     }
 
 	.row img {
