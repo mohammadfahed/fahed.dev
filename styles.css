@@ -515,7 +515,22 @@ nav i.fas {
 		margin-left: 52px;
 	}
 	#header {
-		width: 1045px;
+		width: 136%;
+        height: 138%;
+	}
+	.head_content h4 {
+		
+		font-size: 45px;
+		
+		
+	}
+	.head_content p {
+		
+		font-size: 38px;
+	
+	}
+	.head_content span {
+		font-size: 46px;
 	}
 	.col1 img {
 		height: 286px;
@@ -548,11 +563,25 @@ nav i.fas {
 
 }
 
-@media only screen and (max-width:430px) {
+@media only screen and (max-width:425px) {
 	#header {
 		background-image: url(images/phone-background.jpeg);
 		height: 1235px;
         width: 200%;
+	}
+	.head_content h4 {
+		
+		font-size: 45px;
+		
+		
+	}
+	.head_content p {
+		
+		font-size: 38px;
+	
+	}
+	.head_content span {
+		font-size: 46px;
 	}
 	.container {
         margin-left: 0px;
@@ -597,8 +626,9 @@ nav i.fas {
 		margin-right: 34px;
 	}
 	#about {
-        margin-top: 48px;
-        height: 100%;
+        margin-top: 0px;
+        height: 234%;
+       
         width: 100%;
     }
 	.row {
@@ -762,15 +792,70 @@ nav i.fas {
 	
 
 }
+
+@media only screen and (max-width:375px) {
+
+	.head_content h4 {
+		font-size: 40px;
+		
+	}
+	.head_content p {
+		font-size: 33px;
+
+	}
+	.head_content span {
+		
+		font-weight: 900;
+		font-size: 51px;
+		
+	}
+	#about {
+		margin-top: 0px;
+        height: 220%;
+        width: 100%;
+        margin-left: 0px;
+    
+    }
+	.row {
+        display: block;
+        height: 100%;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+	.col2 h1 {
+		font-family: monospace;
+		margin-left: 83px;
+		font-size: 34px;
+		margin-top: 13px;
+	}
+	#portfolio h1 {
+        margin-top: 68px;
+    }
+
+
+
+}
+
 @media only screen and (max-width:320px) {
 	#header {
         background-image: url(images/phone-background.jpeg);
         height: 100%;
         width: 100%;
     }
-    .head_content {
-        margin-top: 50px;
-        margin-left: 42px;
+	.head_content {
+        margin-top: 0px;
+        margin-left: 17px;
+    }
+	.head_content h4 {
+        font-size: 19px;
+    }
+	.head_content p {
+        font-size: 22px;
+    }
+	.head_content span {
+        font-weight: 900;
+        font-size: 28px;
+        font-family: ui-monospace;
     }
 	.row {
         display: block;
@@ -822,6 +907,12 @@ nav i.fas {
     }
 	.column {
         margin-left: 0px;
+    }
+	#about {
+        margin-top: 0px;
+        height: 100%;
+        overflow: scroll;
+        width: 100%;
     }
 	#services {
         padding-left: 0px;
