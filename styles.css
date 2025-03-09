@@ -75,21 +75,21 @@ nav ul li a:hover::after {
 
 .head_content h4 {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	font-size: 30px;
+	font-size: 16px;
 	font-weight: 400;
 	color: #fff;
 }
 
 .head_content p {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	font-size: 15px;
+	font-size: 10px;
 	color: #fff;
 }
 
 .head_content span {
 	color: #f40606;
 	font-weight: 900;
-	font-size: 27px;
+	font-size: 17px;
 }
 
 /* ......about..... */
@@ -115,10 +115,9 @@ nav ul li a:hover::after {
 .col2 {
 	margin-left: 25px;
 }
-
 .col2 h1 {
-	padding: 0px 0px 0px 100px;
 	font-family: monospace;
+	margin-left: 38px;
 }
 
 .col2 p {
@@ -599,29 +598,29 @@ nav i.fas {
 		margin-right: 34px;
 	}
 	#about {
-		margin-top: 64px;
-		height: 200vh;
-		width: 100vw;
-	}
+        margin-top: 48px;
+        height: 100%;
+        width: 100%;
+    }
 	.row {
         display: block;
         height: 100vh;
         width: 157%;
-        margin: 40px 0px 0px 32px;
+        /* margin: 40px 0px 0px 32px; */
     }
 	.row img {
         height: 57%;
         width: 59%;
         margin-left: 164px;
     }
-	.col2 h1 {
+	/* .col2 h1 {
 		padding: 0px 0px 0px 100px;
 		font-family: monospace;
 		justify-content: center;
 		align-items: center;
 		display: flex
 	;
-	}
+	} */
 	.col2 p.aboutme {
         font-size: 25px;
         padding-left: 83px;
@@ -706,12 +705,12 @@ nav i.fas {
 		font-size: 40px;
 	}
 	
-	/* .aboutimg a  {
+	.aboutimg a  {
 		margin-left: 178px;
 		font-size: 69px;
 		background-color: white;
 		border-radius: 50%;
-	} */
+	}
 	.aboutimg a i {
 		font-size: 54px;
 		margin-top: 45px;
@@ -767,13 +766,18 @@ nav i.fas {
 @media only screen and (max-width:320px) {
 	#header {
         background-image: url(images/phone-background.jpeg);
-        height: 103vh;
-        width: 103vw;
+        height: 100%;
+        width: 100%;
     }
-
-	.row img {
-		width: 71%;
-        margin-left: 145px;
+	.row {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    .row img {
+        width: 40%;
+        margin-left: 70px;
+		
     }
 	.col2 p {
         font-size: 27px;
