@@ -591,16 +591,30 @@ nav i.fas {
 
 @media only screen and (max-width:613px) {
 
+	#header {
+		background-image: url(images/phone-background.jpeg);
+		
+	}
 	.col1 img {
 		height: 292px;
 		width: 215px;
+	}
+	.col2 p.aboutme {
+		font-size: 13px;
+		padding-left: 2px;
+		padding-top: 7px;
+		width: 91vw;
+		height: 56%;
 	}
 
 
 /* about */
 .row {
-	height: 100vh;
-	width: 87%;
+	height: 116vh;
+	width: 100%;
+	display: block;
+	align-items: center;
+	justify-items: center;
 }
 /* service */
 .container {
@@ -634,5 +648,102 @@ width: 300px;
     height: 281px;
     
 }
+#contact {
+    display: flex;
+    height: 144%;
+}
+.row1 {
+    height: 60vh;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-items: center;
+}
+.col-left {
+    height: 44%;
+    width: 73%;
+}
+.col-left h1 {
+    margin-left: 6px;
+    margin-top: 20px;
+}
+.col-right {
+    width: 95%;
+}
+.container1 {
+	margin-left: 15px;
+	height: 100%;
+}
+}
+@media only screen and (max-width:342px) {
+	.row {
+        height: 122vh;
+       
+    }
+	.col1 img {
+        height: 167px;
+        width: 138px;
+        margin-left: 0px;
+    }
+	.col2 {
+		margin-left: 0px;
+	}
+	.col2 p.aboutme {
+        font-size: 9px;
+        width: 62vw;
+ 
+    }
+/* service */
+#services h1 {
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.column {
+	height: 241px;
+	width: 216px;
+	margin-bottom: 13px;
+}
+/* portfolio */
+#portfolio {
+	height: 144%;
+}
+#portfolio h1 {
+    margin-left: 38px;
+    margin-top: 15px;
+    font-size: 22px;
+}
+.work {
+	height: 210px;
+	width: 220px;
+	margin-top: 12px;
+	padding: 0px;
+}
+.work img {
+	height: 210px;
+	width: 190px;
+}
+.aboutimg {
+	width: 192px;
+}
+.aboutimg:hover {
+	height: 210px;
+}
+/* contact */
+.col-left {
+	height: 43%;
+	width: 96%;
+}
+.col-left p {
+    font-size: 8px;
+    
+}
+a.cvbtn {
+    margin-left: 18px;
+    
+}
+
+
+
+
 
 }
