@@ -67,9 +67,10 @@ nav ul li a::after {
 nav ul li a:hover::after {
 	width: 100%;
 }
+
 .head_content {
-    margin-top: 194px;
-    margin-left: 117px;
+	margin-top: 194px;
+	margin-left: 117px;
 }
 
 .head_content h4 {
@@ -114,6 +115,7 @@ nav ul li a:hover::after {
 .col2 {
 	margin-left: 25px;
 }
+
 .col2 h1 {
 	font-family: monospace;
 	margin-left: 38px;
@@ -460,7 +462,8 @@ a.cvbtn:hover {
 	background: #ff004f;
 
 }
-#msg{
+
+#msg {
 	margin-left: 25px;
 	color: green;
 	display: block;
@@ -482,8 +485,10 @@ nav i.fas {
 	display: none;
 
 }
+
 /* ----css phone screen--- */
 @media only screen and (max-width:910px) {
+
 	/* head */
 	nav ul {
 		margin-left: 75px;
@@ -492,29 +497,34 @@ nav i.fas {
 	#services {
 		padding-left: 0px;
 	}
+
 	.column {
 		height: 290px;
 		width: 200px;
 	}
+
 	#portfolio {
 		height: 65%;
 		padding-left: 0px;
 	}
+
 	/* contact */
 	.col-left p i {
 		margin-left: 48px;
 	}
 }
+
 @media only screen and (max-width:733px) {
 	nav {
 		justify-content: space-between;
-	
+
 	}
+
 	nav img {
 		margin-left: 38px;
 	}
-	
-	
+
+
 	nav ul {
 		background: #ff004f;
 		position: fixed;
@@ -523,69 +533,83 @@ nav i.fas {
 		width: 200px;
 		height: 100vh;
 		padding-top: 50px;
-		display:block;
+		display: block;
 		font-size: 20px;
 		z-index: 5px;
 		transition: rigrt 0.5s;
-		
-		
+
+
 	}
-	nav ul li{
+
+	nav ul li {
 		margin: 20px;
 	}
-	nav ul .fas{
+
+	nav ul .fas {
 		position: absolute;
 		top: 25px;
 		left: 25px;
 		cursor: pointer;
 	}
+
 	nav i.fas {
 		font-size: 30px;
 		display: block;
 		margin-right: 34px;
 	}
-/* about */
-.row { 
-    height: 95vh;
-    margin:0;
-}
-.col1 img {
-    margin-left: 50px;
-}
-/* service */
-.container {
-    margin-left: 0px;
-}
-.column {
-    margin-left: 13px;
-}
-.column div:hover {
-    height: 289px;
-}
-/* portfoloi */
-.work img {
-    height: 230px;
-    width: 174px;
 
-}
-.work img:hover {
-	height: 230px;
-}
-.aboutimg {
-    width: 175px;  
-}
-.aboutimg:hover {
-    height: 231px;
-    
-}
-/* contact */
-.container1 {
-    margin-left: 15px;
-}
-/* .copyright */
-.copyright {
-    margin-left: 17px;
-}
+	/* about */
+	.row {
+		height: 95vh;
+		margin: 0;
+	}
+
+	.col1 img {
+		margin-left: 50px;
+	}
+
+	/* service */
+	.container {
+		margin-left: 0px;
+	}
+
+	.column {
+		margin-left: 13px;
+	}
+
+	.column div:hover {
+		height: 289px;
+	}
+
+	/* portfoloi */
+	.work img {
+		height: 230px;
+		width: 174px;
+
+	}
+
+	.work img:hover {
+		height: 230px;
+	}
+
+	.aboutimg {
+		width: 175px;
+	}
+
+	.aboutimg:hover {
+		height: 231px;
+
+	}
+
+	/* contact */
+	.container1 {
+		margin-left: 15px;
+	}
+
+	/* .copyright */
+	.copyright {
+		margin-left: 17px;
+	}
 
 }
 
@@ -593,12 +617,14 @@ nav i.fas {
 
 	#header {
 		background-image: url(images/phone-background.jpeg);
-		
+
 	}
+
 	.col1 img {
 		height: 292px;
 		width: 215px;
 	}
+
 	.col2 p.aboutme {
 		font-size: 13px;
 		padding-left: 2px;
@@ -608,139 +634,175 @@ nav i.fas {
 	}
 
 
-/* about */
-.row {
-	height: 116vh;
-	width: 100%;
-	display: block;
-	align-items: center;
-	justify-items: center;
+	/* about */
+	.row {
+		height: 116vh;
+		width: 100%;
+		display: block;
+		align-items: center;
+		justify-items: center;
+	}
+
+	/* service */
+	.container {
+		display: block;
+		align-items: center;
+		justify-items: center;
+	}
+
+	.column {
+		height: 280px;
+		width: 330px;
+		margin-bottom: 17px;
+	}
+
+	/* portfolio */
+	#portfolio {
+		height: 180%;
+
+	}
+
+	.work {
+		height: 280px;
+		width: 330px;
+		margin-top: 12px;
+	}
+
+	.work img {
+		height: 281px;
+		width: 300px;
+	}
+
+	.aboutimg {
+		width: 300px;
+	}
+
+	.aboutimg:hover {
+		height: 281px;
+
+	}
+
+	#contact {
+		display: flex;
+		height: 144%;
+	}
+
+	.row1 {
+		height: 60vh;
+		width: 100%;
+		display: block;
+		align-items: center;
+		justify-items: center;
+	}
+
+	.col-left {
+		height: 44%;
+		width: 73%;
+	}
+
+	.col-left h1 {
+		margin-left: 6px;
+		margin-top: 20px;
+	}
+
+	.col-right {
+		width: 95%;
+	}
+
+	.container1 {
+		margin-left: 15px;
+		height: 100%;
+	}
 }
-/* service */
-.container {
-	display: block;
-	align-items: center;
-	justify-items: center;
-}
-.column {
-	height: 280px;
-	width: 330px;
-	margin-bottom: 17px;
-}
-/* portfolio */
-#portfolio {
-	height: 180%;
-	
-}
-.work {
-    height: 280px;
-    width: 330px;
-   margin-top: 12px;
-}
-.work img{
-	height: 281px;
-width: 300px;
-}
-.aboutimg {
-	width: 300px;
-}
-.aboutimg:hover {
-    height: 281px;
-    
-}
-#contact {
-    display: flex;
-    height: 144%;
-}
-.row1 {
-    height: 60vh;
-    width: 100%;
-    display: block;
-    align-items: center;
-    justify-items: center;
-}
-.col-left {
-    height: 44%;
-    width: 73%;
-}
-.col-left h1 {
-    margin-left: 6px;
-    margin-top: 20px;
-}
-.col-right {
-    width: 95%;
-}
-.container1 {
-	margin-left: 15px;
-	height: 100%;
-}
-}
+
 @media only screen and (max-width:342px) {
 	.row {
-        height: 122vh;
-       
-    }
+		height: 100vh;
+
+	}
+
 	.col1 img {
-        height: 167px;
-        width: 138px;
-        margin-left: 0px;
-    }
+		height: 167px;
+		width: 138px;
+		margin-left: 0px;
+	}
+
 	.col2 {
 		margin-left: 0px;
 	}
+
 	.col2 p.aboutme {
-        font-size: 9px;
-        width: 62vw;
- 
-    }
-/* service */
-#services h1 {
-    margin-left: 30px;
-    margin-bottom: 15px;
-}
-.column {
-	height: 241px;
-	width: 216px;
-	margin-bottom: 13px;
-}
-/* portfolio */
-#portfolio {
-	height: 144%;
-}
-#portfolio h1 {
-    margin-left: 38px;
-    margin-top: 15px;
-    font-size: 22px;
-}
-.work {
-	height: 210px;
-	width: 220px;
-	margin-top: 12px;
-	padding: 0px;
-}
-.work img {
-	height: 210px;
-	width: 190px;
-}
-.aboutimg {
-	width: 192px;
-}
-.aboutimg:hover {
-	height: 210px;
-}
-/* contact */
-.col-left {
-	height: 43%;
-	width: 96%;
-}
-.col-left p {
-    font-size: 8px;
-    
-}
-a.cvbtn {
-    margin-left: 18px;
-    
-}
+		font-size: 9px;
+		width: 62vw;
+
+	}
+
+	/* service */
+	#services h1 {
+		margin-left: 30px;
+		margin-bottom: 15px;
+	}
+
+	.column {
+		height: 241px;
+		width: 216px;
+		margin-bottom: 13px;
+	}
+	.column div {
+		padding-left: 15px;
+	}
+
+	/* portfolio */
+	#portfolio {
+		height: 133%;
+	}
+
+	#portfolio h1 {
+		margin-left: 38px;
+		margin-top: 15px;
+		font-size: 22px;
+	}
+
+	.work {
+		height: 210px;
+		width: 220px;
+		margin-top: 12px;
+		padding: 0px;
+	}
+
+	.work img {
+		height: 210px;
+		width: 190px;
+	}
+
+	.aboutimg {
+		width: 192px;
+	}
+
+	.aboutimg:hover {
+		height: 210px;
+	}
+
+	/* contact */
+	#contact {
+		display: flex;
+		height: 124%;
+	}
+
+	.col-left {
+		height: 43%;
+		width: 96%;
+	}
+
+	.col-left p {
+		font-size: 8px;
+
+	}
+
+	a.cvbtn {
+		margin-left: 18px;
+
+	}
 
 
 
