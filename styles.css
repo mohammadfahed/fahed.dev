@@ -619,6 +619,10 @@ nav i.fas {
 		background-image: url(images/phone-background.jpeg);
 
 	}
+	.head_content {
+		margin-top: 182px;
+		margin-left: 63px;
+	}
 
 	.col1 img {
 		height: 292px;
@@ -803,8 +807,47 @@ nav i.fas {
 		margin-left: 18px;
 
 	}
+}
 
 
+@media only screen and (max-width:375px) {
+	.head_content {
+		margin-top: 180px;
+		margin-left: 33px;
+	}
+	
+	
+	.row {
+		height: 100vh;
+		
+	}
+	#portfolio {
+        height: 145%;
+    }
+	#contact {
+        height: 114%;
+    }
+	.col-left p {
+		margin-left: -28px;
+		margin-top: 0px;
+		font-size: 9px;
+	}
+	.col-right button {
+		margin-left: 109px;
+	}
+	.social-icon {
+		margin-left: 9px;
+	}
+	a.cvbtn {
+		margin-left: 22px;
+	}
+	.col-right form {
+		height: 100%;
+		width: 64%;
+	}
+	form input, form textarea {
+		font-size: 13px;
+	}
 
 
 
